@@ -1,21 +1,26 @@
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize">
+    <Button
+        android:id="@+id/nav_button"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/ic_home"/>
     <TextView
         android:id="@+id/title_city"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_height="match_parent"
         android:textColor="#fff"
-        android:textSize="20sp" />
+        android:layout_marginLeft="10dp"
+        android:textSize="30sp"/>
     <TextView
         android:id="@+id/title_update_time"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginRight="10dp"
-        android:layout_alignParentRight="true"
-        android:layout_centerVertical="true"
+        android:layout_height="match_parent"
         android:textColor="#fff"
-        android:textSize="16sp" />
-</RelativeLayout>
+        android:textSize="16sp"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"/>
+</LinearLayout>
