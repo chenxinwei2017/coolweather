@@ -27,6 +27,8 @@ public class Weather {
         public class AQICity{
             public String aqi;
             public String pm25;
+            @SerializedName("qlty")
+            public String aqiStr;
         }
         public AQICity city;
     }
@@ -39,17 +41,45 @@ public class Weather {
         }
         @SerializedName("cond")
         public More more;
+        public class Wind{
+            @SerializedName("spd")
+            public String windSpd;
+        }
+        public Wind wind;
     }
     public class Suggestion {
         public class Comfort{
+            public String brf;
             @SerializedName("txt")
             public String info;
         }
         public class CarWash{
+            public String brf;
+            @SerializedName("txt")
+            public String info;
+        }
+        public class Wear{
+            public String brf;
+            @SerializedName("txt")
+            public String info;
+        }
+        public class Flu{
+            public String brf;
             @SerializedName("txt")
             public String info;
         }
         public class Sport{
+            public String brf;
+            @SerializedName("txt")
+            public String info;
+        }
+        public class Trav{
+            public String brf;
+            @SerializedName("txt")
+            public String info;
+        }
+        public class Uv{
+            public String brf;
             @SerializedName("txt")
             public String info;
         }
@@ -57,7 +87,12 @@ public class Weather {
         public Comfort comfort;
         @SerializedName("cw")
         public CarWash carWash;
+        @SerializedName("drsg")
+        public Wear wear;
+        public Flu flu;
         public Sport sport;
+        public Trav trav;
+        public Uv uv;
     }
     public class Forecast {
         public String date;

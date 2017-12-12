@@ -18,4 +18,20 @@
         android:layout_gravity="end"
         android:textColor="#fff"
         android:textSize="30sp" />
+    <TextView
+        android:id="@+id/weather_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+    <Button
+        android:id="@+id/choose_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:textColor="#fff"
+        android:text="设置当前数据自动更新频率"
+        android:textSize="20sp"
+        android:background="#00000000"/>
 </LinearLayout>

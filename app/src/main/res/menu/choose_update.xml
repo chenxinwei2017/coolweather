@@ -1,0 +1,28 @@
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/quarter_hour"
+        android:title="每15分钟更新"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/half_hour"
+        android:title="每半小时更新"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/one_hour"
+        android:title="每1小时更新"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/two_hour"
+        android:title="每2小时更新"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/four_hour"
+        android:title="每4小时更新"
+        app:showAsAction="never"/>
+    <item
+        android:id="@+id/eight_hour"
+        android:title="每8小时更新"
+        app:showAsAction="never"/>
+</menu>
